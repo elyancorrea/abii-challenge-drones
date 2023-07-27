@@ -37,7 +37,7 @@ output_dir = 'marcadores/'
 marker_size = 1000
 
 # Criação dos marcadores ArUco e salvamento em arquivo
-aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_250)
+aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_100)
 parameters = cv2.aruco.DetectorParameters_create()
 
 for marker_id, info in marcadores_dict.items():
